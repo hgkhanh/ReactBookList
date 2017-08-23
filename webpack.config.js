@@ -1,6 +1,7 @@
 module.exports = {
   entry: [
-    './src/index.js'
+    './src/index.js',
+    './src/components/search_bar.js',
   ],
   output: {
     path: __dirname,
@@ -21,6 +22,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    host: 'khanhnguyen.frosmo',
+    port: 3231
   }
 };
