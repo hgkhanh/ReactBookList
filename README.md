@@ -11,6 +11,8 @@ Simple App using React, showing youtube video, including:
 Made from Udemy course.
 
 #### Installation
+
+```
 > npm install
 > npm start
 ```
